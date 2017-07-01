@@ -1,0 +1,20 @@
+{
+  "name": "castle-builder",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Dejan <dejan.zivkovic90@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}
