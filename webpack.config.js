@@ -47,7 +47,12 @@ module.exports = {
             { from: dir_css  } // to: output.path
         ]),
         // Avoid publishing files when compilation fails
-        new webpack.NoErrorsPlugin()
+        new webpack.NoErrorsPlugin(),
+
+         new webpack.ProvidePlugin({
+            'THREE': 'three',
+            'TWEEN': 'tween.js'
+        })
     ],
     stats: {
         // Nice colored output
